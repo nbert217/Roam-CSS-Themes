@@ -51,7 +51,7 @@
 
 /* Top bar */
   .roam-topbar {
-  background-color: #f3f0d7;
+  background-color: #ffffff;
   border-bottom: 1px solid #f2d7f2;
   }
 
