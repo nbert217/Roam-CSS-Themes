@@ -139,7 +139,7 @@
   }
 
   .rm-page-ref-tag:hover {
-  background-color: #ffffff;
+  background-color: #efa8ed;
   text-decoration: none;
   }
 
