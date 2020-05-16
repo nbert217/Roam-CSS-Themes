@@ -87,7 +87,7 @@
   
 /* All pages table header */
    .rm-pages-row:first-of-type { 
-   background-color: #d8b38487 !important;
+   background-color: #f2d7f2 !important;
    }
 
 /* All pages search bar */
@@ -97,7 +97,7 @@
 
 /* Queries */
   .rm-query .rm-query-title {
-  color: #5e454b;
+  color: #ffffff;
   background-color: #f2d7f2 ;
   }
 
