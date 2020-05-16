@@ -17,7 +17,7 @@
   .roam-body .roam-app .roam-sidebar-container {
   background-color: #323046 !important;
   margin-top: 45px;
-  box-shadow: 5px 2px 17px -2px #323046;
+  box-shadow: 5px 2px 17px -2px #f2d7f2;
   }
 
 /* Left sidebar text */
@@ -45,19 +45,19 @@
 
 /* Right sidebar */
   #right-sidebar {
-  background-color: #d8b3842e !important;
+  background-color: #f2d7f2 !important;
   box-shadow: -5px 2px 17px -2px #5e454b47;
   }
 
 /* Top bar */
   .roam-topbar {
   background-color: #f3f0d7;
-  border-bottom: 2px solid #d8b3842e;
+  border-bottom: 1px solid #f2d7f2;
   }
 
 /* Reference block */
   .rm-reference-item {
-  background-color: #d8b3842e;
+  background-color: #f2d7f2;
   margin-bottom: 10px;
   }
 
@@ -78,11 +78,11 @@
 
 /* All pages */
   .rm-pages-row-highlight {
-  background-color: #d8b3843d;
+  background-color: #f2d7f2;
   }
 
   .element.style {
-  background-color: #5e454b;
+  background-color: #f2d7f2;
   }
   
 /* All pages table header */
