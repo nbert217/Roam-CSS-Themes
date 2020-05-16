@@ -92,7 +92,7 @@
 
 /* All pages search bar */
   .bp3-input {
-   background: #d8b3842e;
+   background: #ffffff;
    }
 
 /* Queries */
@@ -145,8 +145,8 @@
 
 /* Highlighting */
   .roam-highlight { 
-  background-color: #894aa9;
-  color: #424242;
+  background-color: #e1ccff;
+  color: #894aa9;
   border-radius: 0px;
   padding: 5px 5px 4px 5px;
   }
