@@ -70,19 +70,19 @@
 
 /* Reference block heading */
   a {
-  color: #8949a9;
+  color: #eee3ff;
   }
   a:hover {
-  color: #8949a9;
+  color: #eee3ff;
   }
 
 /* All pages */
   .rm-pages-row-highlight {
-  background-color: #eadaf8;
+  background-color: #eee3ff;
   }
 
   .element.style {
-  background-color: #eadaf8;
+  background-color: #eee3ff;
   }
   
 /* All pages table header */
