@@ -103,7 +103,7 @@
 
 /* Vertical guides */
   .block-border-left {
-  border-color: #d8b384;
+  border-color: #894aa9;
   }
 
 /* Bullets */
@@ -118,7 +118,7 @@
 
 /* Checkmarks */
   .checkmark {
-  background: #ffffff21;
+  background: #894aa9;
   }
   
   .check-container input:checked ~ .checkmark {
@@ -133,7 +133,7 @@
   .rm-page-ref-tag {
   color: #7777776b !important;
   font-weight: 400;
-  background-color: #d8b3842e;
+  background-color: #894aa9;
   border-radius: 10px;
   padding: 1px 5px 2px;
   }
@@ -145,7 +145,7 @@
 
 /* Highlighting */
   .roam-highlight { 
-  background-color: #d8b3847a;
+  background-color: #894aa9;
   color: #424242;
   border-radius: 0px;
   padding: 5px 5px 4px 5px;
@@ -154,7 +154,7 @@
 /* Text selection */
   ::selection {
   color: #5e454b;
-  background: #d8b3847a;
+  background: #894aa9;
   }
 
 /* Search box  */
