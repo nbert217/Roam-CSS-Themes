@@ -45,7 +45,7 @@
 
 /* Right sidebar */
   #right-sidebar {
-  background-color: #72507d !important;
+  background-color: #8949a9 !important;
   box-shadow: -5px 2px 17px -2px #8949a9;
   }
 
