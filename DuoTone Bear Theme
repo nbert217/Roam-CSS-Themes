@@ -35,12 +35,12 @@
   cursor: pointer;
   font-size: 14px;
   padding: 8px 0px 8px 4px;
-  color: #5e454b;
+  color: #ebc8f9;
   }
    
   .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
-  color: #f5f8fa;
-  background-color: #5e454b;
+  color: #ebc8f9;
+  background-color: #ebc8f9;
   }
 
 /* Right sidebar */
@@ -57,7 +57,7 @@
 
 /* Reference block */
   .rm-reference-item {
-  background-color: #8949a9;
+  background-color: #ebc8f9;
   margin-bottom: 10px;
   }
 
