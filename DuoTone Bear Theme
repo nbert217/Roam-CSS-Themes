@@ -35,7 +35,7 @@
   cursor: pointer;
   font-size: 14px;
   padding: 8px 0px 8px 4px;
-  color: #5e454b;
+  color: #ffffff;
   }
    
   .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
