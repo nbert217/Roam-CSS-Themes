@@ -57,7 +57,7 @@
 
 /* Reference block */
   .rm-reference-item {
-  background-color: #eee3ff;
+  background-color: #d5d5d5;
   margin-bottom: 10px;
   }
 
