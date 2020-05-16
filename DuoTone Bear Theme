@@ -35,12 +35,12 @@
   cursor: pointer;
   font-size: 14px;
   padding: 8px 0px 8px 4px;
-  color: #ebc8f9;
+  color: #eadaf8;
   }
    
   .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
   color: #ebc8f9;
-  background-color: #ebc8f9;
+  background-color: #eadaf8;
   }
 
 /* Right sidebar */
@@ -57,7 +57,7 @@
 
 /* Reference block */
   .rm-reference-item {
-  background-color: #ebc8f9;
+  background-color: #eadaf8;
   margin-bottom: 10px;
   }
 
@@ -70,19 +70,19 @@
 
 /* Reference block heading */
   a {
-  color: #ebc8f9;
+  color: #eadaf8;
   }
   a:hover {
-  color: #ebc8f9;
+  color: #eadaf8;
   }
 
 /* All pages */
   .rm-pages-row-highlight {
-  background-color: #ebc8f9;
+  background-color: #eadaf8;
   }
 
   .element.style {
-  background-color: #ebc8f9;
+  background-color: #eadaf8;
   }
   
 /* All pages table header */
