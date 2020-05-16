@@ -1,6 +1,6 @@
 /* Main document background */
   body{
-  background-color: #f3f0d7;
+  background-color: #ffffff;
   }
   
 /* Main font */
@@ -9,8 +9,8 @@
   div,
   textarea,
   a  {
-  font-family: Helvetica Neue;
-  color: #5e454b;
+  font-family: Lato;
+  color: #252425;
   }
 
 /* Left sidebar */
@@ -145,7 +145,7 @@
 
 /* Highlighting */
   .roam-highlight { 
-  background-color: #8949a9;
+  background-color: #ebc8f9;
   color: #424242;
   border-radius: 0px;
   padding: 5px 5px 4px 5px;
@@ -154,7 +154,7 @@
 /* Text selection */
   ::selection {
   color: #ffffff;
-  background: #8949a9;
+  background: #ebc8f9;
   }
 
 /* Search box  */
@@ -186,7 +186,7 @@
   padding: 4px;
   margin: 0;
   border-bottom: none;
-  color: #5e454b;
+  color: #ebc8f9;
   }
 
 /* Align check-boxes better */
