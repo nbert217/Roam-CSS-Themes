@@ -131,7 +131,7 @@
 
 /* Hashtags */
   .rm-page-ref-tag {
-  color: #7777776b !important;
+  color: #ffffff !important;
   font-weight: 400;
   background-color: #894aa9;
   border-radius: 10px;
