@@ -98,7 +98,7 @@
 /* Queries */
   .rm-query .rm-query-title {
   color: #5e454b;
-  background-color: #d8b3842e ;
+  background-color: #f2d7f2 ;
   }
 
 /* Vertical guides */
@@ -109,7 +109,7 @@
 /* Bullets */
   #right-sidebar .controls .roam-bullet-closed, .controls .roam-bullet-closed {
   background: none;
-  border: 1px solid #d8b384;
+  border: 1px solid #f2d7f2;
   }
 
   .simple-bullet-inner {
