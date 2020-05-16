@@ -122,7 +122,7 @@
   }
   
   .check-container input:checked ~ .checkmark {
-  background: #f2d7f2;
+  background: #894aa9;
   }
   
   .check-container input:checked ~ .checkmark:after {
@@ -162,7 +162,7 @@
   {
   border: none !important;
   box-shadow: none !important;
-  background-color: #e6e2c9db;
+  background-color: #ffffff;
   }
 
 /* "SHORTCUTS" heading */
