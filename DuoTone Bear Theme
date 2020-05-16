@@ -70,10 +70,10 @@
 
 /* Reference block heading */
   a {
-  color: #eadaf8;
+  color: #8949a9;
   }
   a:hover {
-  color: #eadaf8;
+  color: #8949a9;
   }
 
 /* All pages */
