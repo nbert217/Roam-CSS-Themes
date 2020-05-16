@@ -9,13 +9,13 @@
   div,
   textarea,
   a  {
-  font-family: Consolas;
+  font-family: Helvetica Neue;
   color: #5e454b;
   }
 
 /* Left sidebar */
   .roam-body .roam-app .roam-sidebar-container {
-  background-color: #d8b3842e !important;
+  background-color: #323146 !important;
   margin-top: 45px;
   box-shadow: 5px 2px 17px -2px #5e454b47;
   }
@@ -26,7 +26,7 @@
   font-weight: bold;
   cursor: pointer;
   font-size: 14px;
-  color: #5e454b;
+  color: #ffffff;
   }
 
 /* Shortcuts */
@@ -45,54 +45,54 @@
 
 /* Right sidebar */
   #right-sidebar {
-  background-color: #d8b3842e !important;
-  box-shadow: -5px 2px 17px -2px #5e454b47;
+  background-color: #72507d !important;
+  box-shadow: -5px 2px 17px -2px #8949a9;
   }
 
 /* Top bar */
   .roam-topbar {
-  background-color: #f3f0d7;
-  border-bottom: 2px solid #d8b3842e;
+  background-color: #ffffff;
+  border-bottom: 2px solid #ffffff;
   }
 
 /* Reference block */
   .rm-reference-item {
-  background-color: #d8b3842e;
+  background-color: #8949a9;
   margin-bottom: 10px;
   }
 
 
 /* Page link */
   .rm-page-ref-link-color {
-  color: #d8b384;
+  color: #8949a9;
   font-weight: 600;
   }
 
 /* Reference block heading */
   a {
-  color: #d8b384;
+  color: #8949a9;
   }
   a:hover {
-  color: #d8b384;
+  color: #8949a9;
   }
 
 /* All pages */
   .rm-pages-row-highlight {
-  background-color: #d8b3843d;
+  background-color: #8949a9;
   }
 
   .element.style {
-  background-color: #5e454b;
+  background-color: #8949a9;
   }
   
 /* All pages table header */
    .rm-pages-row:first-of-type { 
-   background-color: #d8b38487 !important;
+   background-color: #8949a9 !important;
    }
 
 /* All pages search bar */
   .bp3-input {
-   background: #d8b3842e;
+   background: #8949a9;
    }
 
 /* Queries */
@@ -122,7 +122,7 @@
   }
   
   .check-container input:checked ~ .checkmark {
-  background: #d8b384;
+  background: #323146;
   }
   
   .check-container input:checked ~ .checkmark:after {
@@ -145,7 +145,7 @@
 
 /* Highlighting */
   .roam-highlight { 
-  background-color: #d8b3847a;
+  background-color: #8949a9;
   color: #424242;
   border-radius: 0px;
   padding: 5px 5px 4px 5px;
@@ -153,8 +153,8 @@
 
 /* Text selection */
   ::selection {
-  color: #5e454b;
-  background: #d8b3847a;
+  color: #ffffff;
+  background: #8949a9;
   }
 
 /* Search box  */
@@ -162,7 +162,7 @@
   {
   border: none !important;
   box-shadow: none !important;
-  background-color: #e6e2c9db;
+  background-color: #ffffff;
   }
 
 /* "SHORTCUTS" heading */
