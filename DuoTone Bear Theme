@@ -118,11 +118,11 @@
 
 /* Checkmarks */
   .checkmark {
-  background: #894aa9;
+  background: #ffffff;
   }
   
   .check-container input:checked ~ .checkmark {
-  background: #d8b384;
+  background: #f2d7f2;
   }
   
   .check-container input:checked ~ .checkmark:after {
@@ -154,7 +154,7 @@
 /* Text selection */
   ::selection {
   color: #5e454b;
-  background: #894aa9;
+  background: #f2d7f2;
   }
 
 /* Search box  */
