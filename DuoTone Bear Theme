@@ -29,7 +29,7 @@
   color: #ffffff;
   }
 
-/* Shortcuts */
+/* Shortcuts, Left Nav Highlight Bar */
   .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
   text-decoration: none;
   cursor: pointer;
@@ -40,7 +40,7 @@
    
   .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
   color: #f5f8fa;
-  background-color: #5e454b;
+  background-color: #894aa9;
   }
 
 /* Right sidebar */
