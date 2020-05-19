@@ -15,7 +15,7 @@
 
 /* Left sidebar */
   .roam-body .roam-app .roam-sidebar-container {
-  background-color: #323046 !important;
+  background-color: #4e2e4b !important;
   margin-top: 45px;
   box-shadow: 5px 2px 17px -2px #f2d7f2;
   }
