@@ -52,7 +52,7 @@
 /* Top bar */
   .roam-topbar {
   background-color: #ffffff;
-  border-bottom: 1px solid #f2d7f2;
+  border-bottom: 1px solid #0077b3;
   }
 
 /* Reference block */
@@ -145,8 +145,8 @@
 
 /* Highlighting */
   .roam-highlight { 
-  background-color: #e1ccff;
-  color: #894aa9;
+  background-color: #e6e6e6;
+  color: #006699;
   border-radius: 0px;
   padding: 5px 5px 4px 5px;
   }
