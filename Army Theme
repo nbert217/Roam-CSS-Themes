@@ -15,7 +15,7 @@
 
 /* Left sidebar */
   .roam-body .roam-app .roam-sidebar-container {
-  background-color: #666633 !important;
+  background-color: #444422 !important;
   margin-top: 45px;
   box-shadow: 5px 2px 17px -2px #f2d7f2;
   }
@@ -146,7 +146,7 @@
 /* Highlighting */
   .roam-highlight { 
   background-color: #d4d4aa;
-  color: #894aa9;
+  color: #444422;
   border-radius: 0px;
   padding: 5px 5px 4px 5px;
   }
