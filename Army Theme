@@ -1,0 +1,201 @@
+/* Main document background */
+  body{
+  background-color: #f6f6ee;
+  }
+  
+/* Main font */
+  body,
+  html,
+  div,
+  textarea,
+  a  {
+  font-family: Noto Sans JP;
+  color: #212121;
+  }
+
+/* Left sidebar */
+  .roam-body .roam-app .roam-sidebar-container {
+  background-color: #666633 !important;
+  margin-top: 45px;
+  box-shadow: 5px 2px 17px -2px #f2d7f2;
+  }
+
+/* Left sidebar text */
+  .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+  padding: 8px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  color: #ffffff;
+  }
+
+/* Shortcuts, Left Nav Highlight Bar */
+  .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 0px 8px 4px;
+  color: #ffffff;
+  }
+   
+  .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
+  color: #f5f8fa;
+  background-color: #894aa9;
+  }
+
+/* Right sidebar */
+  #right-sidebar {
+  background-color: #f2d7f2 !important;
+  box-shadow: -5px 2px 17px -2px #5e454b47;
+  }
+
+/* Top bar */
+  .roam-topbar {
+  background-color: #f6f6ee;
+  border-bottom: 1px solid #f2d7f2;
+  }
+
+/* Reference block */
+  .rm-reference-item {
+  background-color: #eaeaea;
+  margin-bottom: 10px;
+  }
+
+
+/* Page link */
+  .rm-page-ref-link-color {
+  color: #77773c;
+  font-weight: 600;
+  }
+
+/* Reference block heading */
+  a {
+  color: #77773c;
+  }
+  a:hover {
+  color: #77773c;
+  }
+
+/* All pages */
+  .rm-pages-row-highlight {
+  background-color: #f2d7f2;
+  }
+
+  .element.style {
+  background-color: #f2d7f2;
+  }
+  
+/* All pages table header */
+   .rm-pages-row:first-of-type { 
+   background-color: #f2d7f2 !important;
+   }
+
+/* All pages search bar */
+  .bp3-input {
+   background: #ffffff;
+   }
+
+/* Queries */
+  .rm-query .rm-query-title {
+  color: #ffffff;
+  background-color: #f2d7f2 ;
+  }
+
+/* Vertical guides */
+  .block-border-left {
+  border-color: #894aa9;
+  }
+
+/* Bullets */
+  #right-sidebar .controls .roam-bullet-closed, .controls .roam-bullet-closed {
+  background: none;
+  border: 1px solid #f2d7f2;
+  }
+
+  .simple-bullet-inner {
+  opacity: 0.3;
+  }
+
+/* Checkmarks */
+  .checkmark {
+  background: #ffffff;
+  }
+  
+  .check-container input:checked ~ .checkmark {
+  background: #894aa9;
+  }
+  
+  .check-container input:checked ~ .checkmark:after {
+  border-color: #fff;
+  }
+
+/* Hashtags */
+  .rm-page-ref-tag {
+  color: #d6c5e1 !important;
+  font-weight: 400;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1px 5px 2px;
+  }
+
+  .rm-page-ref-tag:hover {
+  background-color: #894aa9;
+  text-decoration: none;
+  }
+
+/* Highlighting */
+  .roam-highlight { 
+  background-color: #e1ccff;
+  color: #894aa9;
+  border-radius: 0px;
+  padding: 5px 5px 4px 5px;
+  }
+
+/* Text selection */
+  ::selection {
+  color: #5e454b;
+  background: #f2d7f2;
+  }
+
+/* Search box  */
+  .rm-find-or-create-wrapper .bp3-input
+  {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: #ffffff;
+  }
+
+/* "SHORTCUTS" heading */
+  .starred-pages-wrapper .flex-h-box {
+  display: none;
+  }
+
+/* Roam logo */
+  #roam-sidebar-logo {
+  display: none;
+  }
+
+/* Less space below page heading */
+  .roam-body .roam-app .roam-main .roam-article .rm-title-display {
+  margin-bottom: 10px;
+  }
+
+/* Block refs are not underlined or shrunk */
+  .rm-block-ref {
+  font-size: 1em;
+  padding: 4px;
+  margin: 0;
+  border-bottom: none;
+  color: #5e454b;
+  }
+
+/* Align check-boxes better */
+  label.check-container {
+  margin-bottom: 11px;
+  margin-right: 3px;
+  }
+  
+  .rm-level1 label.check-container {
+  margin-bottom: 17px;
+  margin-right: -3px;
+  }
