@@ -40,12 +40,12 @@
    
   .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
   color: #f5f8fa;
-  background-color: #894aa9;
+  background-color: #d4d4aa;
   }
 
 /* Right sidebar */
   #right-sidebar {
-  background-color: #f2d7f2 !important;
+  background-color: #d4d4aa !important;
   box-shadow: -5px 2px 17px -2px #5e454b47;
   }
 
@@ -103,7 +103,7 @@
 
 /* Vertical guides */
   .block-border-left {
-  border-color: #894aa9;
+  border-color: #77773c;
   }
 
 /* Bullets */
@@ -122,7 +122,7 @@
   }
   
   .check-container input:checked ~ .checkmark {
-  background: #894aa9;
+  background: #77773c;
   }
   
   .check-container input:checked ~ .checkmark:after {
@@ -139,13 +139,13 @@
   }
 
   .rm-page-ref-tag:hover {
-  background-color: #894aa9;
+  background-color: #77773c;
   text-decoration: none;
   }
 
 /* Highlighting */
   .roam-highlight { 
-  background-color: #e1ccff;
+  background-color: #d4d4aa;
   color: #894aa9;
   border-radius: 0px;
   padding: 5px 5px 4px 5px;
@@ -153,7 +153,7 @@
 
 /* Text selection */
   ::selection {
-  color: #5e454b;
+  color: #d4d4aa;
   background: #f2d7f2;
   }
 
@@ -186,7 +186,7 @@
   padding: 4px;
   margin: 0;
   border-bottom: none;
-  color: #5e454b;
+  color: #d4d4aa;
   }
 
 /* Align check-boxes better */
