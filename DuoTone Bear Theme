@@ -1,6 +1,6 @@
 /* Main document background */
   body{
-  background-color: #ffffff;
+  background-color: #f5f5f0;
   }
   
 /* Main font */
