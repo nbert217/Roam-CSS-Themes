@@ -45,7 +45,7 @@
 
 /* Right sidebar */
   #right-sidebar {
-  background-color: #e6f7ff !important;
+  background-color: #b3e6ff !important;
   box-shadow: -5px 2px 17px -2px #5e454b47;
   }
 
@@ -153,8 +153,8 @@
 
 /* Text selection */
   ::selection {
-  color: #5e454b;
-  background: #f2d7f2;
+  color: #006699;
+  background: #b3e6ff;
   }
 
 /* Search box  */
