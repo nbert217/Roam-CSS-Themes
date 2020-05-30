@@ -1,0 +1,558 @@
+*
+### ROAM CUSTOM THEME ###
+> Many thanks to the Roam Slack community for all the resources, particularly @Anthony for the Bear theme that helped in this construction.
+> Edits by Calhistoriaan
+> v1.0
+*/
+/* Editor */
+body {
+    /*    Background color   */
+    background-color: black;
+}
+/*
+.rm-block-text {
+  max-width: 1100px;
+}
+.roam-article {
+    width: 100%;
+}
+.roam-block-container {
+    max-width: 1100px;
+}
+
+/* Page Link Over-ride   */
+span.rm-page-ref {
+    color: #e78924 !important;
+}
+/* Page Link With Icon 
+span.rm-page-ref {
+  background-color: #b0d4fcb3 !important;
+  font-size: 12px;
+  letter-spacing: .07em;
+}
+
+span.rm-page-ref  {
+    color: black !important;
+    border-radius: 10px;
+    padding: 2px 3px 2px 3px;
+}
+span.rm-page-ref::before {
+  content: " 📄"
+}
+span.rm-page-ref:hover {
+    color: black !important;
+  background-color: #b0d4fc !important;
+    text-decoration: none;
+}
+*/
+/* Top Bar */
+.roam-topbar {
+    background-color: #172027;
+}
+/* Top Bar Shorcuts */
+.bp3-icon-graph:before,
+.bp3-icon-star:before,
+.bp3-icon-star-empty:before,
+.bp3-icon-more:before {
+    color: #f8c764 !important;
+}
+.bp3-icon-filter {
+    color: #f8c764 !important;
+}
+/* Side Bar Open/Close Icon */
+.bp3-button:before,
+.bp3-minimal:before,
+.bp3-icon-menu:before,
+.bp3-small:before {
+    color: #f8c764 !important;
+}
+/* Side Bar */
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+    background-color: #172027;
+    color: #f8c764;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* Better hover effect for Shortcut Page and Omni Nav Bar */
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover {
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #f8c764;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
+    color: black;
+    background-color: #f8c764;
+    border-radius: 15px;
+}
+/* Roam Search Bar */
+/* Roam Search Box Placeholder Text Color */
+.bp3-input::placeholder,
+.bp3-input-group > .bp3-icon {
+    color: #f8c764;
+}
+/* Input Text Color */
+.bp3-input {
+    color: #f7c665;
+}
+/* Roam Search Box Field and Border */
+.bp3-input,
+.bp3-input[readonly] {
+    background: black;
+    box-shadow: inset 0 0 0 1px #e98924;
+}
+/*
+.rm-find-or-create-wrapper .rm-menu-item .rm-search-list-item {
+  word-break: break-word;
+  color: #cecdc6;
+  overflow-wrap: break-spaces;
+  margin-left: -20px;
+} */
+/* New Page Button Style */
+.rm-find-or-create-wrapper .rm-menu-item .rm-search-title .rm-new-page {
+    color: green;
+}
+.bp3-omnibar {
+    background-color: white !important;
+}
+/* Context Menus */
+.bp3-popover .bp3-popover-content,
+.bp3-menu {
+    background: black;
+    color: #e98924;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px #f4c463, 0 2px 10px #f4c463, 0 3px 15px #f4c463;
+}
+.bp3-popover .bp3-popover-arrow-fill {
+    fill: #f8c764;
+}
+/* Slash Popup */
+.bp3-elevation-3 {
+    color: #1775db;
+    background-color: black !important;
+    font-size: 12px;
+    border-radius: 4px;
+    box-shadow: 0 0 0 2px #f4c463, 0 2px 15px #e98924;
+}
+.bp3-elevation-3 .dont-unfocus-block {
+    filter: invert(100%);
+}
+/* Kanban */
+.kanban-column-container {
+    background-color: black !important;
+    border-radius: 5px !important;
+}
+.kanban-board {
+    background-color: black !important;
+    border-radius: 5px !important;
+    border-width: 1px !important;
+    ;
+    padding: 1px !important;
+    margin: 0px;
+}
+.kanban-card {
+    background-color: #172027;
+    margin: 10px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 1px #80808085;
+    border-width: 1px;
+    line-height: 2em;
+    text-align: center;
+}
+.kanban-title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-right: 6px;
+    border-radius: 1px;
+    border-color: #e78924 !important;
+    border-width: 2px;
+}
+.kanban-column {
+    background-color: #19150e;
+    padding: 10px;
+    min-width: 200px;
+    border-radius: 8px;
+}
+.rm-block-ref::before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    border-radius: 40px;
+    height: 10px;
+    background: #ff913c;
+    margin-right: 5px;
+}
+.rm-block-ref {
+    border-bottom: none;
+    font-size: 1em;
+    color: #627a9d;
+}
+.rm-block-ref:hover {
+    background: none;
+    cursor: pointer;
+}
+.block-ref-count-button {
+    font-weight: bolder !important;
+    font-size: normal;
+    color: white;
+    background-color: #ff965a !important;
+    opacity: 1;
+}
+/* Font */
+div {
+    /* Side Bar Font */
+    font-family: 'Futura';
+}
+.roam-body .roam-app .roam-main .roam-article {
+    font-family: 'Futura';
+    color: #dedcdc;
+}
+/* Side Bar Text Color */
+.roam-app {
+    color: #d4d3cc !important;
+}
+/* Header Styles */
+.roam-app h1 {
+    /* styles page titling */
+    color: #f8c764 !important;
+    font-weight: bold;
+    font-size: 32px;
+}
+/* Header Styles */
+.roam-app h2 {
+    /* styles page titling */
+    color: #f8c764 !important;
+    font-weight: bold;
+    font-size: 24px;
+}
+/*
+.roam-app h2 { /* styles page titling
+    color: black !important;
+    font-weight: bold;
+  font-size: 14px;
+  background-color: #f8c764;
+    border-radius: 13px;
+    padding-left: 10px;
+  padding-right: 5px;
+} */
+.roam-app h3 {
+    /* styles page titling */
+    color: #f8c764 !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* Reference Separator */
+.rm-reference-container {
+    border-top: 3px solid #f8c764;
+    padding-top: 12px;
+    margin-bottom: 8px;
+}
+/* Reference Titles */
+.roam-article > div:last-child a {
+    color: #f8c764 !important;
+    font-weight: bold;
+}
+/* Reference Boxes */
+.rm-reference-item {
+    background-color: #f2c98f1a;
+    border-radius: 15px;
+    padding: 0px;
+}
+/* Markdown Link Titles */
+a {
+    color: #e88923;
+}
+/* the currently selected block */
+.rm-block-input {
+    color: black !important;
+    background-color: #f8c764;
+    border-radius: 10px;
+    padding: 0px 5px 0px 5px;
+}
+/* Block Reference Style */
+.rm-block-ref {
+    padding: 4px 2px;
+    margin: -4px 0px;
+    font-size: 14px;
+    display: inline;
+    border-bottom: 1px solid #f8c764;
+    cursor: alias;
+    padding-left: 0px;
+}
+/* Block Reference Highlight*/
+.rm-block-ref:hover {
+    color: black;
+    background-color: #f8c764;
+    display: inline;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+}
+/* Tag Styles */
+.rm-page-ref-tag {
+    /* hashtags */
+    color: #f8c764 !important;
+    background-color: #423212;
+    border-radius: 10px;
+    padding: 2px 3px 2px 3px;
+}
+.rm-page-ref-tag:hover {
+    color: white !important;
+    background-color: #e88a24;
+    text-decoration: none;
+}
+span.rm-page-ref[data-tag="Area:"] {
+    background-color: #f0c873 !important;
+    font-size: 12px;
+    font-weight: bold;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Due:"] {
+    background-color: #f0c873 !important;
+    font-size: 12px;
+    font-weight: bold;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Start Date:"] {
+    background-color: #f0c873 !important;
+    font-size: 12px;
+    font-weight: bold;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Status:"] {
+    background-color: #f0c873 !important;
+    color: black !important;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Subtasks:"] {
+    background-color: #f0c873 !important;
+    font-size: 12px;
+    font-weight: bold;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Subtask:"] {
+    background-color: #f0c873 !important;
+    font-size: 12px;
+    color: black !important;
+    letter-spacing: .07em;
+    padding: 0px 3px 0px 3px;
+}
+span.rm-page-ref[data-tag="Subtask:"]::after {
+    content: " "
+}
+.block-highlight-blue {
+    /* the bright blue highlight color */
+    background-color: #735821;
+}
+/* the tree/outline graphics */
+.block-border-left {
+    border-left: 1px solid #ac8943;
+}
+/* the single backtick code snippets */
+code {
+    background-color: #242F38 !important;
+    border-radius: 3px !important;
+    color: #fded74;
+    border: 0px solid #13191e;
+    padding: 3px 4px 3px 4px;
+    font-weight: bold;
+}
+/*
+strong { /* bold text
+    font-size: 1.15em;
+    color: #0a71ea;
+}
+*/
+.roam-highlight {
+    /* highlighting */
+    background-color: #fdd755db;
+    color: #0F1419;
+    border-radius: 2px;
+    padding: 2px 3px 2px 3px;
+}
+/* Bullets */
+.controls .simple-bullet-outer .simple-bullet-inner {
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: orange;
+}
+/* expandable bullets */
+.roam-bullet-closed {
+    background-color: orange;
+}
+#right-sidebar {
+    background-color: #1e232f !important;
+}
+/* bullet indent width 
+.flex-v-box { 
+    margin-left: 12px !important;
+} */
+/* Query */
+.rm-query {
+    border: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #4f4128 !important;
+}
+.rm-query-title {
+    color: #ffffff70 !important;
+    background-color: #4f4128 !important;
+    border-style: solid;
+    border: 3px
+}
+.rm-query-content {
+    padding-left: 0px !important;
+    color: white !important;
+    border-color: #97ccf6 !important;
+}
+.check-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    /* RTB change: align checkbox for updated spacing */
+    margin-bottom: 7.5px;
+    cursor: pointer;
+    font-size: 48px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: bottom;
+    top: -9px;
+    /* RTB change: align checkbox for updated spacing */
+}
+/* Hide the browser's default checkbox */
+.check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 12px;
+    border-radius: 10px;
+    width: 12px;
+    border: 2px solid #e78924;
+}
+/* On mouse-over, add a grey background color */
+/* When the checkbox is checked, add a background coloor */
+.check-container input:checked ~ .checkmark {
+    background-color: #e98924;
+    /* orange theme color */
+    border: none;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    padding-left: 2px;
+}
+/* Show the checkmark when checked */
+.check-container input:checked ~ .checkmark:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.check-container .checkmark:after {
+    left: 4.9px;
+    top: 2px;
+    width: 7px;
+    height: 11px;
+    border: solid white;
+    border-width: 0 3px 2.5px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(40deg) scale(1);
+}
+.roam-body .roam-app .roam-main .roam-article .rm-title-display {
+    margin-bottom: 10px;
+}
+.roam-block-container {
+    max-width: 100% !important;
+}
+div.roam-center > div:first-child {
+    padding-right: calc((100% - 950px) / 2) !important;
+    padding-left: calc((100% - 1500px) / 2) !important;
+}
+.hoverparent[style^='position: relative; width: 500px;'] {
+    width: 100% !important;
+}
+.hoverparent .react-resizable[style^='width: 500px;'] {
+    width: 100% !important;
+}
+.react-resizable[style^='width: 580px;'],
+.react-resizable[style^='width: 720px;'] {
+    width: 100% !important;
+}
+.hoverparent[style^="position: relative; width: 580px;"],
+.hoverparent[style^="position: relative; width: 720px;"] {
+    width: 100% !important;
+}
+.rm-block-text {
+    max-width: 100%;
+}
+#buffer.tall {
+    height: calc(100vh - 50px);
+}
+/* Roam All Pages */
+.rm-pages-row:first-child {
+    /*    Table Header   */
+    background: black !important;
+}
+.rm-pages-row:first-child {
+    background: #172027 !important;
+}
+.rm-pages-row .rm-pages-title-col a {
+    /*    Page Title  */
+    color: #e88a24 !important;
+}
+.rm-pages-row .rm-pages-title-col a + span,
+.rm-pages-row .rm-pages-title-col .bp3-text-overflow-ellipsis {
+    /*    Page Body Preview   */
+    color: white !important;
+}
+.rm-pages-row.rm-pages-row-highlight {
+    /*    Alternate Row Highlight   */
+    background-color: black;
+}
+.roam-app a:focus,
+.roam-app a:hover {
+    color: #e98924;
+    text-decoration: underline;
+}
+/* Change Roam Research logo color to match theme
+#roam-sidebar-logo {
+filter: brightness(0) saturate(100%) invert(92%) sepia(20%) saturate(457%) hue-rotate(315deg) brightness(108%) contrast(99%);
+}
+
+#roam-sidebar-logo:focus, #roam-sidebar-logo:hover {
+text-decoration: none !important;
+}
+
+/*
+
+/* Change sideboard to all one color
+.roam-body .roam-app .roam-sidebar-container {
+background-color: #586F76 !important;
+}
+*/
