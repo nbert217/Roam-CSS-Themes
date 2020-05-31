@@ -154,7 +154,7 @@
 /* Text selection */
   ::selection {
   color: #d4d4aa;
-  background: #f2d7f2;
+  background: #d4d4aa;
   }
 
 /* Search box  */
