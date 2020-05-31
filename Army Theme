@@ -153,7 +153,7 @@
 
 /* Text selection */
   ::selection {
-  color: #d4d4aa;
+  color: #212121;
   background: #d4d4aa;
   }
 
