@@ -109,7 +109,7 @@
 /* Bullets */
   #right-sidebar .controls .roam-bullet-closed, .controls .roam-bullet-closed {
   background: none;
-  border: 1px solid #444422;
+  border: 1px solid #d4d4aa;
   }
 
   .simple-bullet-inner {
