@@ -89,7 +89,7 @@
    .rm-pages-row:first-of-type { 
    background-color: #/* Main document background */
   body{
-  background-color: #d4d4aa;
+  background-color: #444422;
   }
   
 /* Main font */
