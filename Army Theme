@@ -52,7 +52,7 @@
 /* Top bar */
   .roam-topbar {
   background-color: #f6f6ee;
-  border-bottom: 1px solid #f2d7f2;
+  border-bottom: 1px solid #d4d4aa;
   }
 
 /* Reference block */
@@ -78,11 +78,11 @@
 
 /* All pages */
   .rm-pages-row-highlight {
-  background-color: #f2d7f2;
+  background-color: #d4d4aa;
   }
 
   .element.style {
-  background-color: #f2d7f2;
+  background-color: #d4d4aa;
   }
   
 /* All pages table header */
