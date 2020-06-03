@@ -331,9 +331,9 @@
 
 /* Hashtags */
   .rm-page-ref-tag {
-  color: #d6c5e1 !important;
+  color: #a9aea4 !important;
   font-weight: 400;
-  background-color: #ffffff;
+  background-color: #f6f6ee;
   border-radius: 10px;
   padding: 1px 5px 2px;
   }
